@@ -5,7 +5,7 @@ def _recursive_fin(n):
     """inefficiant implementation of fibonacci using recursion"""
     if n==1 or n==2:
         return 1
-    return _recursive_fin(n-1)+_recursive_fin(n-2)
+    return _recursive_fin(n-1)+_recursive_fin(n-2)  # call recursively
 
 
 def _looping_fin(n):
